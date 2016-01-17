@@ -37,7 +37,7 @@
     }
     .left-col {
         background: rgba(255,255,255,.85);
-        width: 300px;
+        width: 240px;
         position:fixed;
         opacity:1;
         transition:all .2s ease-in;
@@ -65,12 +65,12 @@
         right:0;
         min-height:100%;
         background: rgba(255,255,255,.8);
-        left: 300px;
+        left: 240px;
         width: auto;
     }
 
     @media screen and (max-width:1040px) {
-        
+
     }@media screen and (max-width:800px) {
         @import "_partial/mobile"
     }
@@ -159,14 +159,15 @@
         min-height: menu-line-height * 3px;
         max-height: menu-line-height * 5px;
         overflow: auto;
-        margin-left: -12px;
-        text-align: center;
+        margin-left: -2px;
+        text-align: left;
         display: -webkit-box;
         -webkit-box-orient: horizontal;
         -webkit-box-pack: center;
         -webkit-box-align: center;
         li{
             cursor: default;
+            list-style: disc;
             a{
                 font-size: 14px;
                 min-width: 300px;
@@ -441,8 +442,10 @@
 }
 
 #post-nav-button {
-    left: 300px;
+    left: 240px;
     top: 61.8%;
+    background-color: #B3B3B3;
+    border-radius: 4px;
     a {
         border-bottom-color: transparent;
         background: none;
