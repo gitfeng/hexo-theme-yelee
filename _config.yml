@@ -2,7 +2,7 @@
 menu:
   主页: /
   所有文章: /archives/
-  # 随笔: /tags/随笔
+  随笔: /categories/随笔
   标签云: /tags/
   关于我: /about/
 
@@ -59,6 +59,7 @@ avatar: /img/avatar.jpg
 #是否开启分享
 share: true
 
+
 # >>> Conments 评论系统 <<<
 # Chose ONE as your comment system and keep others disable.
 # 选一个作为网站评论系统，其他保持禁用。
@@ -71,16 +72,15 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo:
-  #on: true
   on: true
-  domain: http://gitfeng.duoshuo.com
+  domain: gitfeng
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名
   # http://你的多说域名.duoshuo.com
 
 youyan:
   #on: true
-  id: 
+  id: 2081624
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
